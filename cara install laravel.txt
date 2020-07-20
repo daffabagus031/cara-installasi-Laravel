@@ -1,0 +1,21 @@
+pastikan Anda sudah menginstall beberapa aplikasi pendukung proses instalasi Laravel, yaitu:
+
+Aplikasi XAMPP 
+Composer
+
+Cara install Laravel  terdiri dari empat langkah, yaitu:
+
+1. Masuk Command Prompt
+
+2. Masuk ke folder XAMPP (tergantung lokasi xampp)
+   cd \xampp\htdocs
+
+3. Mulai proses instalasi Laravel
+   Gunakan perintah ini untuk melakukan request:
+   composer create-project --prefer-dist laravel/laravel install_laravel(nama bebas)
+   lalu tunggu sampai proses selesai
+
+4. Cek instalasi Laravel di web browser
+   masukkan perintah berikut ke dalam Command Prompt atau Terminal:
+   Php artisan serve
+   Lalu copy url ke browser
